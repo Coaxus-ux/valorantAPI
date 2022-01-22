@@ -1,0 +1,45 @@
+.container-header{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #1F2326;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    height: 60px;
+}
+.container-header hr{
+    margin: 0 30px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    height: 20px;
+}
+.container-header nav{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding: auto;
+    text-transform: uppercase;
+    list-style: none;
+}
+.container-header nav li{
+    margin-right: 20px;
+}
+.container-header nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 30px;
+}
+.container-header nav li a:hover{
+    color: #F04251;
+    text-decoration: none;
+}
+img{
+    width: 40px;
+    height: auto;
+}
+.container-header .logo-riot img{
+    filter: invert(99%) sepia(0%) saturate(2058%) hue-rotate(225deg) brightness(114%) contrast(100%);
+}
